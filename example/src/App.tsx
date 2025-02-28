@@ -1,23 +1,23 @@
-import { View, StyleSheet } from 'react-native';
-import { IOSTranslateTasksView } from 'react-native-ios-translate-tasks';
+import { StatusBar, StyleSheet, View } from "react-native";
+import { IOSTranslateTasksProvider } from "react-native-ios-translate-tasks";
+import { Example } from "./Example";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <IOSTranslateTasksView color="#32a852" style={styles.box} />
-    </View>
+    <IOSTranslateTasksProvider>
+      <View style={styles.container}>
+        <StatusBar barStyle="dark-content" />
+        <Example />
+      </View>
+    </IOSTranslateTasksProvider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#FFFFFF",
   },
 });

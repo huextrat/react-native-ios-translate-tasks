@@ -1,6 +1,7 @@
 package com.iostranslatetasks
 
 import android.graphics.Color
+import com.facebook.react.bridge.ReadableArray
 import com.facebook.react.module.annotations.ReactModule
 import com.facebook.react.uimanager.SimpleViewManager
 import com.facebook.react.uimanager.ThemedReactContext
@@ -30,9 +31,24 @@ class IOSTranslateTasksViewManager : SimpleViewManager<IOSTranslateTasksView>(),
     return IOSTranslateTasksView(context)
   }
 
-  @ReactProp(name = "color")
-  override fun setColor(view: IOSTranslateTasksView?, color: String?) {
-    view?.setBackgroundColor(Color.parseColor(color))
+  @ReactProp(name = "texts")
+  override fun setTexts(view: IOSTranslateTasksView, texts: ReadableArray?) {
+    // No-op implementation since this is iOS-only
+  }
+
+  @ReactProp(name = "shouldTranslate")
+  override fun setShouldTranslate(view: IOSTranslateTasksView, value: Boolean) {
+    // No-op implementation since this is iOS-only
+  }
+
+  @ReactProp(name = "sourceLanguage")
+  override fun setSourceLanguage(view: IOSTranslateTasksView, value: String?) {
+    // No-op implementation since this is iOS-only
+  }
+
+  @ReactProp(name = "targetLanguage")
+  override fun setTargetLanguage(view: IOSTranslateTasksView, value: String?) {
+    // No-op implementation since this is iOS-only
   }
 
   companion object {

@@ -1,2 +1,1 @@
-export { default as IOSTranslateTasksView } from './IOSTranslateTasksViewNativeComponent';
-export * from './IOSTranslateTasksViewNativeComponent';
+export * from "./TranslateContext";
