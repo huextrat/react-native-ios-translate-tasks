@@ -125,6 +125,12 @@ Several types of errors may occur during translation:
 ### Simulator Support
 Please note that this feature does not work on iOS simulators. It requires a physical iOS device running version 18.0 or later to function properly.
 
+## Example
+
+<center>
+<img src="./resources/demo.gif" width="200">
+</center>
+
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
