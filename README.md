@@ -16,6 +16,8 @@
   </a>
 </p>
 
+> **Note**: If you want to display a native iOS sheet, you can use [react-native-ios-translate-sheet](https://github.com/huextrat/react-native-ios-translate-sheet) which provides a native UI for translation settings.
+
 ## Features
 
 - 🔄 Seamless integration with iOS native translation capabilities
