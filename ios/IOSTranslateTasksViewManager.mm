@@ -30,7 +30,10 @@ RCT_EXPORT_MODULE(IOSTranslateTasksView)
 
 RCT_EXPORT_VIEW_PROPERTY(texts, NSArray)
 RCT_EXPORT_VIEW_PROPERTY(shouldTranslate, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(sourceLanguage, NSString)
+RCT_EXPORT_VIEW_PROPERTY(targetLanguage, NSString)
 RCT_EXPORT_VIEW_PROPERTY(onSuccess, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onError, RCTDirectEventBlock)
 
 #ifdef RCT_NEW_ARCH_ENABLED
 + (BOOL)requiresMainQueueSetup
