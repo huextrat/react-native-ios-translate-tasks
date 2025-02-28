@@ -1,6 +1,6 @@
 {
   "name": "react-native-ios-translate-tasks",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "SwiftUI Translate Tasks on React Native",
   "source": "./src/index.tsx",
   "main": "lib/commonjs/index.js",
