@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.0.3...v1.0.4) (2025-03-25)
+
+
+### Bug Fixes
+
+* min RN peer dependency is now 0.76+ ([fd2363d](https://github.com/huextrat/react-native-ios-translate-tasks/commit/fd2363df88e0a3a5f2b93555771214b0f1b01b7a))
+
 ## [1.0.3](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.0.2...v1.0.3) (2025-03-19)
 
 
