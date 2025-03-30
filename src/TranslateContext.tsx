@@ -45,7 +45,7 @@ export const IOSTranslateTasksProvider = ({
         targetLanguage={targetLanguage}
         onSuccess={onSuccess}
         onError={onError}
-        style={styles.translateView}
+        style={StyleSheet.absoluteFillObject}
       />
       {children}
     </TranslateContext.Provider>
@@ -61,13 +61,3 @@ export const useIOSTranslateTasks = () => {
   }
   return context;
 };
-
-const styles = StyleSheet.create({
-  translateView: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-  },
-});

@@ -5,25 +5,21 @@ import type {
   OnSuccessEvent,
 } from "../IOSTranslateTasksViewNativeComponent";
 
+const isSupported =
+  Platform.OS === "ios" && Number.parseFloat(String(Platform.Version)) >= 18.0;
+
 export const useInternalTranslateTasks = () => {
   const [shouldTranslate, setShouldTranslate] = useState(false);
-  const [texts, setTexts] = useState<string[]>([]);
   const resolvePromiseRef = useRef<
     ((res: { translatedTexts: string[] }) => void) | null
   >(null);
   const rejectPromiseRef = useRef<((res: { error: string }) => void) | null>(
     null,
   );
-  const [sourceLanguage, setSourceLanguage] = useState<string | undefined>(
-    undefined,
-  );
-  const [targetLanguage, setTargetLanguage] = useState<string | undefined>(
-    undefined,
-  );
 
-  const isSupported =
-    Platform.OS === "ios" &&
-    Number.parseFloat(String(Platform.Version)) >= 18.0;
+  const texts = useRef<string[]>([]);
+  const sourceLanguage = useRef<string | undefined>(undefined);
+  const targetLanguage = useRef<string | undefined>(undefined);
 
   const startIOSTranslateTasks = (
     _texts: string[],
@@ -36,9 +32,9 @@ export const useInternalTranslateTasks = () => {
       if (!isSupported) {
         throw new Error("startIOSTranslateTasks is not supported");
       }
-      setTexts(_texts);
-      setSourceLanguage(_options?.sourceLanguage);
-      setTargetLanguage(_options?.targetLanguage);
+      texts.current = _texts;
+      sourceLanguage.current = _options?.sourceLanguage;
+      targetLanguage.current = _options?.targetLanguage;
       setShouldTranslate(true);
       resolvePromiseRef.current = resolve;
       rejectPromiseRef.current = reject;
@@ -64,9 +60,9 @@ export const useInternalTranslateTasks = () => {
     startIOSTranslateTasks,
     onSuccess,
     onError,
-    texts,
-    sourceLanguage,
-    targetLanguage,
+    texts: texts.current,
+    sourceLanguage: sourceLanguage.current,
+    targetLanguage: targetLanguage.current,
     isSupported,
   };
 };
