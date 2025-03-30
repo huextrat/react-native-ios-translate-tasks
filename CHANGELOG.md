@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.0.5...v1.1.0) (2025-03-30)
+
+
+### Features
+
+* ref & replace style ([4fad9f8](https://github.com/huextrat/react-native-ios-translate-tasks/commit/4fad9f85f6cbc1abd25972fd5b0a9bd8059b2a97))
+
 ## [1.0.5](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.0.4...v1.0.5) (2025-03-28)
 
 
