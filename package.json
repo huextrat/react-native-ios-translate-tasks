@@ -122,6 +122,11 @@
     "android": {
       "javaPackageName": "com.iostranslatetasks"
     },
+    "ios": {
+      "componentProvider": {
+        "IOSTranslateTasksView": "IOSTranslateTasksView"
+      }
+    },
     "includesGeneratedCode": true
   },
   "create-react-native-library": {
