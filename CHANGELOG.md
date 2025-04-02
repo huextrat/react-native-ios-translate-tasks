@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.1...v1.1.2) (2025-04-02)
+
+
+### Bug Fixes
+
+* add componentProvider for iOS codegen ([04478cb](https://github.com/huextrat/react-native-ios-translate-tasks/commit/04478cb4f3f590610898dfbbdac36bed6bea5138))
+
 ## [1.1.1](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.0...v1.1.1) (2025-04-01)
 
 
