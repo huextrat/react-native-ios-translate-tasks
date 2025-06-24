@@ -1,7 +1,7 @@
-import { type ReactNode, createContext, useContext } from "react";
+import { createContext, type ReactNode, useContext } from "react";
 import { StyleSheet } from "react-native";
-import IOSTranslateTasks from "./IOSTranslateTasksViewNativeComponent";
 import { useInternalTranslateTasks } from "./hooks/useInternalTranslate";
+import IOSTranslateTasks from "./IOSTranslateTasksViewNativeComponent";
 
 type TranslateContextType = {
   isSupported: boolean;
@@ -24,7 +24,9 @@ const TranslateContext = createContext<TranslateContextType | null>(null);
 
 export const IOSTranslateTasksProvider = ({
   children,
-}: { children: ReactNode }) => {
+}: {
+  children: ReactNode;
+}) => {
   const {
     startIOSTranslateTasks,
     shouldTranslate,
