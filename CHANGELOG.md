@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.10](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.9...v1.1.10) (2025-12-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-native to v0.83.1 ([#199](https://github.com/huextrat/react-native-ios-translate-tasks/issues/199)) ([e7628c5](https://github.com/huextrat/react-native-ios-translate-tasks/commit/e7628c5ae6541097928cc9ae7f570afe7d04cb07))
+
 ## [1.1.9](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.8...v1.1.9) (2025-12-15)
 
 
