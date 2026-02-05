@@ -4978,12 +4978,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.2.11":
-  version: 19.2.11
-  resolution: "@types/react@npm:19.2.11"
+"@types/react@npm:19.2.12":
+  version: 19.2.12
+  resolution: "@types/react@npm:19.2.12"
   dependencies:
     csstype: "npm:^3.2.2"
-  checksum: 10c0/a02aa87853fa6ef82353dd58803f18744e367e05760845be9a35f9771031fb81077ef05fb5ef3e9d7bbd91d3f8394b47106a18a833ddfed81e6fbf0be55a3544
+  checksum: 10c0/65d70aeac617ecd6eeb7404bc7f228182708ee537f42b8e728231b042b526df4177abacc08860f1e3f6dac41de279101c55db23ce16338debb739d3abec04e5f
   languageName: node
   linkType: hard
 
@@ -10716,7 +10716,7 @@ __metadata:
     "@react-native-community/cli": "npm:17.0.0"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
-    "@types/react": "npm:19.2.11"
+    "@types/react": "npm:19.2.12"
     commitlint: "npm:20.4.1"
     del-cli: "npm:7.0.0"
     husky: "npm:9.1.7"
