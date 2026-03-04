@@ -9,10 +9,10 @@
 #import "IOSTranslateTasks-Swift.h"
 #endif
 
-#import "generated/RNIOSTranslateTasksViewSpec/ComponentDescriptors.h"
-#import "generated/RNIOSTranslateTasksViewSpec/EventEmitters.h"
-#import "generated/RNIOSTranslateTasksViewSpec/Props.h"
-#import "generated/RNIOSTranslateTasksViewSpec/RCTComponentViewHelpers.h"
+#import "generated/ReactCodegen/RNIOSTranslateTasksViewSpec/ComponentDescriptors.h"
+#import "generated/ReactCodegen/RNIOSTranslateTasksViewSpec/EventEmitters.h"
+#import "generated/ReactCodegen/RNIOSTranslateTasksViewSpec/Props.h"
+#import "generated/ReactCodegen/RNIOSTranslateTasksViewSpec/RCTComponentViewHelpers.h"
 
 using namespace facebook::react;
 
