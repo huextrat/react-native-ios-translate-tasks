@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.13](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.12...v1.1.13) (2026-03-04)
+
+
+### Bug Fixes
+
+* codegen ([0212227](https://github.com/huextrat/react-native-ios-translate-tasks/commit/0212227b82e5a149da778c81ddba0a3e704d6e47))
+
 ## [1.1.12](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.11...v1.1.12) (2026-02-28)
 
 
