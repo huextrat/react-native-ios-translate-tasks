@@ -54,7 +54,8 @@
   },
   "homepage": "https://github.com/huextrat/react-native-ios-translate-tasks#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "access": "public",
+    "provenance": true
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.6",
