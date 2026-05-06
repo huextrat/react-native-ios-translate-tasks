@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.16](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.15...v1.1.16) (2026-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react to v19.2.6 ([#315](https://github.com/huextrat/react-native-ios-translate-tasks/issues/315)) ([5b8b5ed](https://github.com/huextrat/react-native-ios-translate-tasks/commit/5b8b5ed9d2169e397b058ba78d907c1272a17181))
+
 ## [1.1.15](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.14...v1.1.15) (2026-04-08)
 
 
