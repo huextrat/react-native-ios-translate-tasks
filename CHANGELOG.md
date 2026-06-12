@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.17](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.16...v1.1.17) (2026-06-12)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([#328](https://github.com/huextrat/react-native-ios-translate-tasks/issues/328)) ([2d3fbd2](https://github.com/huextrat/react-native-ios-translate-tasks/commit/2d3fbd2103cb4a7e23ab68b821906837e4980ee1))
+
 ## [1.1.16](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.15...v1.1.16) (2026-05-06)
 
 
