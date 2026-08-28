@@ -16,12 +16,7 @@
     },
     {
       "description": "Require manual review for native dependency updates",
-      "matchManagers": [
-        "bundler",
-        "cocoapods",
-        "gradle",
-        "gradle-wrapper"
-      ],
+      "matchManagers": ["bundler", "cocoapods", "gradle", "gradle-wrapper"],
       "automerge": false
     }
   ]
