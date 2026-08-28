@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.19](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.18...v1.1.19) (2026-08-28)
+
+
+### Bug Fixes
+
+* RCTBridge import in ViewManager ([8ec0634](https://github.com/huextrat/react-native-ios-translate-tasks/commit/8ec06340319e7012b852aa80bd0881be018b657e))
+
 ## [1.1.18](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.17...v1.1.18) (2026-08-01)
 
 
