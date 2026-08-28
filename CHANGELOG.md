@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.2.0](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.19...v1.2.0) (2026-08-28)
+
+
+### Features
+
+* update project dependencies ([#375](https://github.com/huextrat/react-native-ios-translate-tasks/issues/375)) ([0841940](https://github.com/huextrat/react-native-ios-translate-tasks/commit/08419407573a7ad723a579fdd82f829c48a38804))
+
 ## [1.1.19](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.18...v1.1.19) (2026-08-28)
 
 
