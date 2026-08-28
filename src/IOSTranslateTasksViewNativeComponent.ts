@@ -1,6 +1,9 @@
-import type { ViewProps } from "react-native";
-import type { DirectEventHandler } from "react-native/Libraries/Types/CodegenTypes";
-import codegenNativeComponent from "react-native/Libraries/Utilities/codegenNativeComponent";
+import {
+  type CodegenTypes,
+  codegenNativeComponent,
+  type HostComponent,
+  type ViewProps,
+} from "react-native";
 
 export interface OnSuccessEvent {
   translatedTexts: string[];
@@ -15,10 +18,10 @@ interface IOSTranslateTasksProps extends ViewProps {
   shouldTranslate?: boolean;
   sourceLanguage?: string;
   targetLanguage?: string;
-  onSuccess?: DirectEventHandler<OnSuccessEvent>;
-  onError?: DirectEventHandler<OnErrorEvent>;
+  onSuccess?: CodegenTypes.DirectEventHandler<OnSuccessEvent>;
+  onError?: CodegenTypes.DirectEventHandler<OnErrorEvent>;
 }
 
 export default codegenNativeComponent<IOSTranslateTasksProps>(
   "IOSTranslateTasksView",
-);
+) as HostComponent<IOSTranslateTasksProps>;

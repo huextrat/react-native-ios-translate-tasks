@@ -47,7 +47,7 @@ export const IOSTranslateTasksProvider = ({
         targetLanguage={targetLanguage}
         onSuccess={onSuccess}
         onError={onError}
-        style={StyleSheet.absoluteFillObject}
+        style={StyleSheet.absoluteFill}
       />
       {children}
     </TranslateContext.Provider>
