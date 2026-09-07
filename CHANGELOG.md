@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.2.0...v1.2.1) (2026-09-07)
+
+
+### Bug Fixes
+
+* **android:** skip explicit Kotlin plugin when AGP registers the kotlin extension ([#387](https://github.com/huextrat/react-native-ios-translate-tasks/issues/387)) ([4c3a595](https://github.com/huextrat/react-native-ios-translate-tasks/commit/4c3a595d884e6842dc4898218a6f9e7dc78837e4))
+
 # [1.2.0](https://github.com/huextrat/react-native-ios-translate-tasks/compare/v1.1.19...v1.2.0) (2026-08-28)
 
 
