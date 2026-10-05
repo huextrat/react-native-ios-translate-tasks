@@ -24,7 +24,7 @@
     "@react-native/jest-preset": "0.87.1",
     "@react-native/metro-config": "0.87.1",
     "@react-native/typescript-config": "0.87.1",
-    "react-native-builder-bob": "0.43.0",
+    "react-native-builder-bob": "0.43.1",
     "react-native-monorepo-config": "0.4.0"
   },
   "engines": {
